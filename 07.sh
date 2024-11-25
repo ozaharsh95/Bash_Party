@@ -1,3 +1,6 @@
+HAR
+SHOZA
+OZA
 #!/bin/bash
 
 # TOPIC
@@ -16,4 +19,4 @@ echo "${text:0:3}"    # o/p : HAR
 echo "${text:3}" 	# o/p : SHOZA
 
 # if length exceeds than remaining char
-echo "${text:5:10}"
+echo "${text:5:10}"       # o/p : OZA
